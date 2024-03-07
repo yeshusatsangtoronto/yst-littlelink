@@ -161,18 +161,18 @@ a:focus {
 
 @media (max-width: 768px) {
   body {
-    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg-m.svgz) no-repeat top center fixed;
+    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg-m.jpg) no-repeat top center fixed;
   }
   body:after{
-    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg-m.svgz) center center;
+    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg-m.jpg) center center;
   }
 }
 @media (min-width: 768px) {
   body {
-    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg.svgz) no-repeat top center fixed;
+    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg.jpg) no-repeat top center fixed;
   }
   body:after{
-    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg.svgz) center center;
+    background: url(https://lambent-pika-109800.netlify.app/images/yst-bg.jpg) center center;
   }
 }
 body {
