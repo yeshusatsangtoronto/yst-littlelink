@@ -122,6 +122,12 @@ p {
   margin-top: 0;
 }
 
+p.date {
+  color:red;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -148,6 +154,52 @@ a:focus {
   border-radius: 2px;
 }
 }
+
+
+/* Background (borrowed from lnk.bio)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 768px) {
+  body {
+    background: url(images/yst-bg-m.jpg) no-repeat top center fixed;
+  }
+  body:after{
+    background: url(images/yst-bg-m.jpg) center center;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background: url(images/yst-bg.jpg) no-repeat top center fixed;
+  }
+  body:after{
+    background: url(images/yst-bg.jpg) center center;
+  }
+}
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top:40px;
+  padding-bottom:100px;
+  min-height:100vh;
+} 
+body:after{
+  content:"";
+  position:fixed; /* stretch a fixed position to the whole screen */
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-2; /* needed to keep in the background */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
